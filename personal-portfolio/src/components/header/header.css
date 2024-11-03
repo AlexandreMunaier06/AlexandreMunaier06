@@ -1,0 +1,31 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(191, 227, 243);
+}
+
+.foto-perfil {
+  padding: 2rem;
+  height: 12rem;
+  width: 12rem;
+  border-radius: 10rem;
+}
+
+.navegacao {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navegacao > li {
+  padding: 1rem;
+}
+
+.navegacao > li:hover {
+  font-size: 1.2rem;
+  color: blue;
+}
+
+.contato-button {
+  padding: 2rem;
+}
