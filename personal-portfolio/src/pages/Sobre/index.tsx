@@ -4,7 +4,7 @@ import './sobre.css';
 function Sobre() {
   return (
     <main className="main-container">
-      <div>
+      <div className='sobre-container'>
         <h1>Engenheiro de Software</h1>
         <article>
           Olá! Sou Alexandre Munaier, 
@@ -16,8 +16,8 @@ function Sobre() {
         </article>
         <button>Entre em contato</button>
       </div>
-      <div>
-        <img className='foto' src={ tobi } alt="foto de corpo" />
+      <div className='foto-container'>
+        <img src={ tobi } alt="foto de corpo" />
       </div>
     </main>
   )
