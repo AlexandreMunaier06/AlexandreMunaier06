@@ -1,50 +1,40 @@
-# React + TypeScript + Vite
+# Perfil do Estudante de Engenharia de Software - PUC Minas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Seja bem-vindo ao meu perfil! 👋 Sou um estudante apaixonado pelo mundo da Engenharia de Software na PUC Minas, buscando constantemente aprender e contribuir para a comunidade de desenvolvimento. Abaixo, compartilho um pouco sobre mim e meu percurso acadêmico.
 
-Currently, two official plugins are available:
+## Sobre Mim
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 👨‍🎓 **Graduação**: Engenharia de Software na PUC Minas.
+- 🌱 **Atividades Atuais**: Foco em aprimorar meus conhecimentos em desenvolvimento de software, design de sistemas e metodologias ágeis.
+- 💼 **Experiência Profissional**: [Detalhes sobre experiências anteriores ou projetos relevantes, se aplicável]
 
-## Expanding the ESLint configuration
+## Habilidades
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Linguagens de Programação:** Java, Python, C#
+- **Desenvolvimento Web:** HTML, CSS, JavaScript, React
+- **Banco de Dados:** MySQL, MongoDB
+- **Metodologias:** Scrum, Kanban
+- **Ferramentas:** Git, VS Code, Eclipse
+- *[Adicione outras habilidades relevantes]*
 
-- Configure the top-level `parserOptions` property like this:
+## Projetos Destacados
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### [Nome do Projeto]
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Breve descrição do projeto e suas tecnologias principais.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+### [Nome do Projeto]
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+Breve descrição do projeto e suas tecnologias principais.
+
+## Contribuições
+
+- [Nome do Projeto/Open Source]: Breve descrição da contribuição.
+
+## Contato
+
+- **E-mail:** [Seu E-mail]
+- **Twitter:** [Seu Perfil no Twitter]
+- **LinkedIn:** [Seu Perfil no LinkedIn]
+
+Sinta-se à vontade para explorar meus repositórios e entrar em contato. Estou sempre aberto a novas conexões e colaborações! 😊
