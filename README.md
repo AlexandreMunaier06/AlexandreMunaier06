@@ -11,7 +11,7 @@ Seja bem-vindo ao meu perfil! 👋 Sou um estudante apaixonado pelo mundo da Eng
 ## Habilidades
 
 - **Linguagens de Programação:** Java, JavaScript, TypeScript, Python
-- **Desenvolvimento Web:** HTML, CSS, JavaScript, React
+- **Desenvolvimento Web:** HTML, CSS, JavaScript, React, TypeScript
 - **Banco de Dados:** MySQL
 
 ## Contato
