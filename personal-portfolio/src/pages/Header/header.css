@@ -1,9 +1,18 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+}
+
 .header-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: rgb(191, 227, 243);
+  width: 80%;
   height: 8rem;
+  margin: 1rem 0rem 2rem 0rem;
 }
 
 /* .foto-perfil {
@@ -36,10 +45,4 @@ h3 {
   padding: 0.5rem;
   border-radius: 0.5rem;
   margin-right: 2rem;
-}
-
-hr {
-  border-width: 0;
-  height: 0.1rem;
-  border-top-width: 0.13rem;
 }

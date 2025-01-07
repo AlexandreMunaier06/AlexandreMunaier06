@@ -1,14 +1,23 @@
 .main-container {
   display: flex;
-  height: 39rem;
+  height: 25rem;
+  background-color: aqua;
+  justify-content: center;
+}
+
+.teste {
+  width: 70%;
+}
+
+.teste > article {
+  padding: 1rem 0rem;
 }
 
 .sobre-container {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  width: 70%;
+  justify-content: space-around;
+  width: 80%;
   background-color: rgb(191, 227, 243);
 }
 
@@ -16,23 +25,14 @@
   padding: 1rem 2rem;
 }
 
-.sobre-container > button {
+button {
   background-color: blue;
   height: 3rem;
   padding: 0.5rem;
   border-radius: 0.5rem;
 }
 
-.foto-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  width: 30%;
-  background-color: rgb(191, 227, 243);
-}
-
-.foto-container > img {
+img {
   height: 15rem;
   width: 15rem;
   position: relative;
@@ -40,7 +40,7 @@
   border-radius: 0.5rem;
 }
 
-.foto-container::before {
+img::before {
   content: '';
   position: absolute;
   justify-content: center;
@@ -51,7 +51,7 @@
   border-radius: 0.8rem;
 }
 
-.foto-container::after {
+img::after {
   content: '';
   position: absolute;
   justify-content: center;
