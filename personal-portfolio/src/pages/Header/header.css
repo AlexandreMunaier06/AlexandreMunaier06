@@ -2,14 +2,13 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: aqua;
 }
 
 .header-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: rgb(191, 227, 243);
+  background-color: #303841;
   width: 80%;
   height: 8rem;
   margin: 1rem 0rem 2rem 0rem;

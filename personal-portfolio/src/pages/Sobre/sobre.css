@@ -1,7 +1,6 @@
 .main-container {
   display: flex;
   height: 25rem;
-  background-color: aqua;
   justify-content: center;
 }
 
@@ -18,47 +17,14 @@
   align-items: center;
   justify-content: space-around;
   width: 80%;
-  background-color: rgb(191, 227, 243);
+  background-color: #303841;
 }
 
 .sobre-container > article {
   padding: 1rem 2rem;
 }
 
-button {
-  background-color: blue;
+.teste > button {
   height: 3rem;
   padding: 0.5rem;
-  border-radius: 0.5rem;
 }
-
-img {
-  height: 15rem;
-  width: 15rem;
-  position: relative;
-  z-index: 3;
-  border-radius: 0.5rem;
-}
-
-img::before {
-  content: '';
-  position: absolute;
-  justify-content: center;
-  width: 17rem;
-  height: 17rem;
-  background-color: #6c5ce7;
-  z-index: 1;
-  border-radius: 0.8rem;
-}
-
-img::after {
-  content: '';
-  position: absolute;
-  justify-content: center;
-  width: 16rem;
-  height: 16rem;
-  background-color: #dfe6e9;
-  z-index: 2;
-  border-radius: 0.8rem;
-}
-

@@ -1,5 +1,4 @@
 .skills-section {
-  background-color: aqua;
   display: flex;
   justify-content: center;
 }
@@ -10,7 +9,7 @@
   align-items: center;
   flex-direction: column;
   margin-top: 2rem;
-  background-color: rgb(191, 227, 243);
+  background-color: #303841;
   width: 80%;
 }
 
