@@ -1,5 +1,4 @@
 import './cards.css';
-import tobi from '../../assets/images/tobi.jpg';
 
 type CardProps = {
   title: string,
@@ -13,7 +12,7 @@ type CardProps = {
 function Cards(props: CardProps) {
 
   const handleModal = (props: CardProps) => {
-    
+    props
   }
 
   return (
