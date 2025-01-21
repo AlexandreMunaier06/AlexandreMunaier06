@@ -11,6 +11,11 @@ type CardProps = {
 }
 
 function Cards(props: CardProps) {
+
+  const handleModal = (props: CardProps) => {
+    
+  }
+
   return (
     <div className='container-cards'>
       <div className='card'>
@@ -19,7 +24,7 @@ function Cards(props: CardProps) {
         <article>
           {props.description}
         </article>
-        <button>Ver mais</button>
+        <button onClick={() => handleModal(props)}>Ver mais</button>
       </div>
     </div>
   )
