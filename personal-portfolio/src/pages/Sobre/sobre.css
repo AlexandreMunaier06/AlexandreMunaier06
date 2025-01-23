@@ -18,6 +18,7 @@
   justify-content: space-around;
   width: 80%;
   background-color: #303841;
+  border-radius: 1rem;
 }
 
 .sobre-container > article {

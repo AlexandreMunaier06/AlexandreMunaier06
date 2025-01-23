@@ -1,4 +1,5 @@
 import './App.css'
+import Contato from './pages/Contato'
 import Header from './pages/Header'
 import Projetos from './pages/Projetos'
 import Skills from './pages/Skills'
@@ -12,6 +13,7 @@ function App() {
       <Sobre />
       <Skills />
       <Projetos />
+      <Contato />
     </>
   )
 }
