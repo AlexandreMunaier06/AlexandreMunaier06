@@ -1,4 +1,4 @@
-# AlexandreMunaier06
+# Alexandre Munaier
 **Perfil do Estudante de Engenharia de Software - PUC Minas**
 
 Seja bem-vindo ao meu perfil! 👋 Sou um estudante apaixonado pelo mundo da Engenharia de Software na PUC Minas, buscando constantemente aprender e contribuir para a comunidade de desenvolvimento. Abaixo, compartilho um pouco sobre mim e meu percurso acadêmico.
