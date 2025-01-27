@@ -16,13 +16,13 @@ function Contato() {
               </a>
           </li>
           <li>
-            <a href="https://gmail.com/">
+            <a href="https://gmail.com/" target='_blank'>
               <img src={gmail} alt="gmail icon" />
               alexandremunaier027@gmail.com
             </a>
           </li>
           <li>
-            <a href="https://github.com/AlexandreMunaier06">
+            <a href="https://github.com/AlexandreMunaier06" target='_blank'>
               <img src={github} alt="github icon" />
               GitHub
             </a>

@@ -2,7 +2,7 @@
   "name": "personal-portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/AlexandreMunaier06/AlexandreMunaier06.git",
+  "homepage": "https://AlexandreMunaier06.github.io/AlexandreMunaier06",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.3.1",
