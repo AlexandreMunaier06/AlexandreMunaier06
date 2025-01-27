@@ -9,10 +9,10 @@ function Header() {
           {/* <img className='foto-perfil' src={ tobi } alt="foto de perfil" /> */}
           <h3>Alexandre Munaier</h3>
           <ul className='navegacao'>
-            <li>Sobre</li>
-            <li>Skills</li>
-            <li>Projetos</li>
-            <li>Contato</li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
           </ul>
         </div>
       </header>

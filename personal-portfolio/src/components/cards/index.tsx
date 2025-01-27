@@ -1,4 +1,6 @@
+import { useState } from 'react';
 import './cards.css';
+import Modal from '../modal';
 
 type CardProps = {
   title: string,
@@ -11,9 +13,11 @@ type CardProps = {
 
 function Cards(props: CardProps) {
 
-  const handleModal = (props: CardProps) => {
-    props
-  }
+  const [isVisible, setIsVisible] = useState(false);
+
+  const toggleModal = () => {
+    setIsVisible(!isVisible);
+  };
 
   return (
     <div className='container-cards'>
@@ -23,7 +27,18 @@ function Cards(props: CardProps) {
         <article>
           {props.description}
         </article>
-        <button onClick={() => handleModal(props)}>Ver mais</button>
+        <button onClick={toggleModal}>Ver mais</button>
+        {isVisible && (
+          <Modal 
+            onClose={toggleModal} 
+            title={props.title}
+            image={props.image}
+            description={props.description}
+            details={props.details}
+            siteLink={props.siteLink}
+            repoLink={props.repoLink}
+          />
+        )}
       </div>
     </div>
   )

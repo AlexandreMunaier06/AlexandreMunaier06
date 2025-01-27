@@ -3,7 +3,7 @@ import './sobre.css';
 
 function Sobre() {
   return (
-    <main className="main-container">
+    <main id='sobre' className="main-container">
       <div className='sobre-container'>
         <div className='teste'>
           <h1>Engenheiro de Software</h1>

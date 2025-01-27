@@ -1,4 +1,5 @@
 import './App.css'
+import ButtonToTop from './components/ButtonToTop'
 import Contato from './pages/Contato'
 import Header from './pages/Header'
 import Projetos from './pages/Projetos'
@@ -14,6 +15,7 @@ function App() {
       <Skills />
       <Projetos />
       <Contato />
+      <ButtonToTop />
     </>
   )
 }

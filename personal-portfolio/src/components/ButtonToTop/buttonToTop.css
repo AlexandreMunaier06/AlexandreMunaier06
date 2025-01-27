@@ -1,0 +1,12 @@
+.topButton {
+  width: 2rem;
+  height: 2rem;
+  position: fixed;
+  bottom: 1.4rem;
+  left: 3rem;
+  color: white;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  z-index: 1000;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}

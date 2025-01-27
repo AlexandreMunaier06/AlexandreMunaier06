@@ -5,7 +5,7 @@ import gmail from '../../assets/images/gmail.png';
 
 function Contato() {
   return (
-    <section className='contato-container'>
+    <section id="contato" className='contato-container'>
       <div className="contato">
         <h1>Contato</h1>
         <ul>

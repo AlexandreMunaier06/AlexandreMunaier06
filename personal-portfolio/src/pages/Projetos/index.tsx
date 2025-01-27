@@ -6,7 +6,7 @@ function Projetos() {
   const projetos = prj;
 
   return (
-    <section className='projetos-container'>
+    <section id='projetos' className='projetos-container'>
       <div className='projetos'>
         <h1>Projetos</h1>
         <div className='cards'>

@@ -11,7 +11,7 @@ import './skills.css';
 function Skills() {
   return (
     <section className="skills-section">
-      <div className="skills-container">
+      <div id='skills' className="skills-container">
         <h1>Skills</h1>
         <ul className='skills'>
           <li><img src={react} alt="react icon" />React</li>
