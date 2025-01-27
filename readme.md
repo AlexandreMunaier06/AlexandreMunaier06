@@ -9,25 +9,12 @@ Seja bem-vindo ao meu perfil! 👋 Sou um estudante apaixonado pelo mundo da Eng
 - 💼 **Experiência Profissional:** [Detalhes sobre experiências anteriores ou projetos relevantes, se aplicável]
 
 ## Habilidades
-- **Linguagens de Programação:** Java, Python, C#
-- **Desenvolvimento Web:** HTML, CSS, JavaScript, React
-- **Banco de Dados:** MySQL, MongoDB
-- **Metodologias:** Scrum, Kanban
-- **Ferramentas:** Git, VS Code, Eclipse
-- [Adicione outras habilidades relevantes]
-
-## Projetos Destacados
-### [Nome do Projeto]
-Breve descrição do projeto e suas tecnologias principais.
-
-### [Nome do Projeto]
-Breve descrição do projeto e suas tecnologias principais.
-
-## Contribuições
+- **Linguagens de Programação:** Java, Python, Node.js
+- **Desenvolvimento Web:** HTML, CSS, JavaScript, React, TypeScript
+- **Banco de Dados:** MySQL
 
 ## Contato
-- **E-mail:** [Seu E-mail]
-- **Twitter:** [Seu Perfil no Twitter]
-- **LinkedIn:** [Seu Perfil no LinkedIn]
+- **E-mail:** alexandremunaier027@gmail.com
+- **LinkedIn:** linkedin.com/in/alexandremunaier/
 
 Sinta-se à vontade para explorar meus repositórios e entrar em contato. Estou sempre aberto a novas conexões e colaborações! 😊
