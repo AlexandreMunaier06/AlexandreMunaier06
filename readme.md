@@ -15,6 +15,6 @@ Seja bem-vindo ao meu perfil! 👋 Sou um estudante apaixonado pelo mundo da Eng
 
 ## Contato
 - **E-mail:** alexandremunaier027@gmail.com
-- **LinkedIn:** linkedin.com/in/alexandremunaier/
+- **LinkedIn:** https://www.linkedin.com/in/alexandremunaier/
 
 Sinta-se à vontade para explorar meus repositórios e entrar em contato. Estou sempre aberto a novas conexões e colaborações! 😊
