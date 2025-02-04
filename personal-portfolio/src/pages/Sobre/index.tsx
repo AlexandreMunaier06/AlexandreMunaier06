@@ -1,6 +1,5 @@
 import eu from '../../assets/images/eu2.webp';
 import './sobre.css';
-import curriculo from '../../assets/pdf/Currículo - Alexandre Munaier.pdf';
 
 function Sobre() {
   return (
@@ -16,7 +15,7 @@ function Sobre() {
             Estou em busca de oportunidades para aplicar e expandir meu conhecimento na área de desenvolvimento de software, 
             especialmente em projetos que envolvem inovação e aprendizado constante.
           </article>
-          <a href={curriculo} download="Curriculo_Alexandre_Munaier.pdf">
+          <a href="/AlexandreMunaier06/curriculo.pdf" download="Curriculo_Alexandre_Munaier.pdf">
             <button className='button-curriculo'>Baixar currículo</button>
           </a>
         </div>
