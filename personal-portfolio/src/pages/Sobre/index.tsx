@@ -1,4 +1,4 @@
-import eu from '../../assets/images/eu.jpeg';
+import eu from '../../assets/images/eu2.webp';
 import './sobre.css';
 
 function Sobre() {
