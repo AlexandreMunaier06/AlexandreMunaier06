@@ -4,14 +4,6 @@
   justify-content: center;
 }
 
-.teste {
-  width: 70%;
-}
-
-.teste > article {
-  padding: 1rem 0rem;
-}
-
 .sobre-container {
   display: flex;
   align-items: center;
@@ -21,11 +13,33 @@
   border-radius: 1rem;
 }
 
-.sobre-container > article {
-  padding: 1rem 2rem;
+.sobre-container > div {
+  width: 70%;
 }
 
-.teste > button {
+.sobre-container > div > article {
+  padding: 1rem 0rem;
+}
+
+.sobre-container > img {
+  height: 15rem;
+  width: 15rem;
+  transition: transform 0.3s ease;
+}
+
+.sobre-container > img:hover {
+  transform: scale(1.2);
+}
+
+.button-curriculo {
+  background-color: #6486ad;
+  border-radius: 0.5rem;
+  color: white;
   height: 3rem;
   padding: 0.5rem;
+  transition: 0.3s ease;
+}
+
+.button-curriculo:hover {
+  transform: scale(1.05);
 }

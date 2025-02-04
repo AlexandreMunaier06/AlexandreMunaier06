@@ -1,15 +1,4 @@
-img {
-  height: 15rem;
-  width: 15rem;
-  border-radius: 0.5rem;
-}
-
 body {
   background-color: #1A1A2E;
   color: white;
-}
-
-button {
-  background-color: #B8C7D9;
-  border-radius: 0.4rem;
 }

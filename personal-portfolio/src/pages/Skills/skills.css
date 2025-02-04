@@ -22,14 +22,19 @@
   display: flex;
 }
 
-.skills > li > img {
-  height: 3rem;
-  width: 3rem;
-}
-
 .skills > li {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 1rem 1rem;
+  transition: 0.3s ease;
+}
+
+.skills > li:hover {
+  transform: scale(1.2);
+}
+
+.skills > li > img {
+  height: 3rem;
+  width: 3rem;
 }

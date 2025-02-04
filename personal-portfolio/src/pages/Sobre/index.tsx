@@ -1,11 +1,12 @@
 import eu from '../../assets/images/eu2.webp';
 import './sobre.css';
+import curriculo from '../../assets/pdf/Currículo - Alexandre Munaier.pdf';
 
 function Sobre() {
   return (
     <main id='sobre' className="main-container">
       <div className='sobre-container'>
-        <div className='teste'>
+        <div>
           <h1>Engenheiro de Software</h1>
           <article>
             Olá! Sou o Alexandre Munaier, 
@@ -15,7 +16,9 @@ function Sobre() {
             Estou em busca de oportunidades para aplicar e expandir meu conhecimento na área de desenvolvimento de software, 
             especialmente em projetos que envolvem inovação e aprendizado constante.
           </article>
-          <button>Entre em contato</button>
+          <a href={curriculo} download="Curriculo_Alexandre_Munaier.pdf">
+            <button className='button-curriculo'>Baixar currículo</button>
+          </a>
         </div>
         <img src={ eu } alt="selfie minha" />
       </div>

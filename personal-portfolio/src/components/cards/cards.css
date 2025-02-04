@@ -45,4 +45,12 @@
   width: 6rem;
   height: 2rem;
   margin-bottom: 0.5rem;
+  background-color: #6486ad;
+  border-radius: 0.5rem;
+  color: white;
+  transition: 0.3s ease;
+}
+
+.card > button:hover {
+  transform: scale(1.1);
 }

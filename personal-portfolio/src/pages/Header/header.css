@@ -15,15 +15,13 @@ header {
   border-radius: 1rem;
 }
 
-/* .foto-perfil {
+.header-container > h3 {
   padding: 2rem;
-  height: 12rem;
-  width: 12rem;
-  border-radius: 10rem;
-} */
+  transition: transform 0.3s ease;
+}
 
-h3 {
-  padding: 2rem;
+.header-container > h3:hover {
+  transform: scale(1.1);
 }
 
 .navegacao {
@@ -33,16 +31,9 @@ h3 {
 
 .navegacao > li {
   padding: 1rem;
+  transition: transform 0.3s ease;
 }
 
 .navegacao > li:hover {
-  font-size: 1.2rem;
-}
-
-.contato-button {
-  background-color: blue;
-  height: 3rem;
-  padding: 0.5rem;
-  border-radius: 0.5rem;
-  margin-right: 2rem;
+  transform: scale(1.3);
 }
