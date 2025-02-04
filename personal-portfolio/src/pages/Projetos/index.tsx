@@ -13,6 +13,7 @@ function Projetos() {
           {projetos.map(projeto => (
             <Cards
               title={projeto.title}
+              tipo={projeto.tipo}
               image={projeto.image}
               description={projeto.description}
               details={projeto.details}

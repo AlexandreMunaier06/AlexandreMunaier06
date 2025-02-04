@@ -11,16 +11,38 @@
   justify-content: space-around;
   background-color: #4E5D73;
   border-radius: 1rem;
-  width: 16rem;
-  height: 22rem;
+  width: 22rem;
+  height: 25rem;
 }
 
 .card > p {
-  margin-top: 0.2rem;
+  margin: 0.5rem 0rem 0.2rem 0rem;
   font-size: 1.2rem;
+}
+
+.card > img {
+  width: 20rem;
+  height: 12rem;
+}
+
+.card > article {
+  margin: 0.2rem 0rem 0rem 1rem;
+  font-size: 1rem;
+}
+
+.stacks {
+  display: flex;
+  width: 100%;
+  margin: 0.5rem 0rem 0.5rem 2rem;
+}
+
+.stacks > img {
+  width: 2rem;
+  height: 2rem;
 }
 
 .card > button {
   width: 6rem;
   height: 2rem;
+  margin-bottom: 0.5rem;
 }

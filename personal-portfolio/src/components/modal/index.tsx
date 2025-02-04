@@ -3,14 +3,14 @@ import './modal.css';
 type ModalProps = {
   onClose: () => void,
   title: string,
+  tipo: string,
   image: string,
-  description: string,
   details: string,
   siteLink: string,
   repoLink: string,
 };
 
-function Modal({ onClose, title, image, description, details, siteLink, repoLink }: ModalProps) {
+function Modal({ onClose, title, tipo, image, details, siteLink, repoLink }: ModalProps) {
   return (
     <section className="modal-container">
       <div className="modal">
@@ -18,13 +18,13 @@ function Modal({ onClose, title, image, description, details, siteLink, repoLink
           &times;
         </button>
         <h2>{title}</h2>
+        <p>{tipo}</p>
         <img src={image} alt="foto do projeto" />
-        <p>{description}</p>
-        <p>{details}</p>
+        <article>{details}</article>
         <div className="modal-links">
-          <a href={siteLink} target="_blank" rel="noopener noreferrer">
+          {siteLink && <a href={siteLink} target="_blank" rel="noopener noreferrer">
             Acessar Site
-          </a>
+          </a>}
           <a href={repoLink} target="_blank" rel="noopener noreferrer">
             Ver Repositório
           </a>

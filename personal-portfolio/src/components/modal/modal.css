@@ -12,6 +12,9 @@
 }
 
 .modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: gray;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -36,6 +39,18 @@
 
 .modal-close:hover {
   color: #ff0000;
+}
+
+.modal > h2 {
+  margin-bottom: 0.5rem;
+}
+
+.modal > p {
+  margin-bottom: 0.5rem;
+}
+
+.modal > article {
+  margin: 0.5rem 0rem 0rem 1rem;
 }
 
 .modal-links {
