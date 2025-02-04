@@ -1,4 +1,4 @@
-import tobi from '../../assets/images/tobi.jpg';
+import eu from '../../assets/images/eu.jpeg';
 import './sobre.css';
 
 function Sobre() {
@@ -17,7 +17,7 @@ function Sobre() {
           </article>
           <button>Entre em contato</button>
         </div>
-        <img src={ tobi } alt="foto de corpo" />
+        <img src={ eu } alt="selfie minha" />
       </div>
     </main>
   )
