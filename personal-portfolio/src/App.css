@@ -1,4 +1,7 @@
 body {
-  background-color: #1A1A2E;
-  color: white;
+  background: linear-gradient(to right, antiquewhite 70%, blue 30%);
+}
+
+html {
+  scroll-behavior: smooth;
 }

@@ -1,27 +1,22 @@
 header {
   display: flex;
   align-items: center;
-  justify-content: center;
-}
-
-.header-container {
-  display: flex;
-  align-items: center;
+  position: fixed;
   justify-content: space-between;
-  background-color: #303841;
-  width: 80%;
-  height: 8rem;
-  margin: 1rem 0rem 2rem 0rem;
-  border-radius: 1rem;
+  width: 100%;
+  height: 6rem;
+  background: linear-gradient(to right, antiquewhite 70%, blue 30%);
+  z-index: 1;
 }
 
-.header-container > h3 {
+header > h3 {
   padding: 2rem;
   transition: transform 0.3s ease;
 }
 
-.header-container > h3:hover {
+header > h3:hover {
   transform: scale(1.1);
+  cursor: pointer;
 }
 
 .navegacao {
