@@ -1,34 +1,27 @@
 .main-container {
   display: flex;
-  height: 25rem;
-  justify-content: center;
-}
-
-.sobre-container {
-  display: flex;
   align-items: center;
-  justify-content: space-around;
-  width: 80%;
-  background-color: #303841;
+  justify-content: center;
   border-radius: 1rem;
+  min-height: 100vh;
 }
 
-.sobre-container > div {
-  width: 70%;
+.main-container > div {
+  width: 45%;
 }
 
-.sobre-container > div > article {
+.main-container > div > article {
   padding: 1rem 0rem;
 }
 
-.sobre-container > img {
-  height: 15rem;
-  width: 15rem;
+.main-container > img {
+  height: 25rem;
+  width: 25rem;
   transition: transform 0.3s ease;
 }
 
-.sobre-container > img:hover {
-  transform: scale(1.2);
+.main-container > img:hover {
+  transform: scale(1.1);
 }
 
 .button-curriculo {

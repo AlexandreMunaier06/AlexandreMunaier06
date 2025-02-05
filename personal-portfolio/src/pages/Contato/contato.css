@@ -2,43 +2,35 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 2rem;
-}
-
-.contato {
-  display: flex;
   flex-direction: column;
-  background-color: #303841;
-  width: 80%;
-  margin-bottom: 2rem;
-  border-radius: 1rem;
+  min-height: 100vh;
 }
 
-.contato > h1 {
+.contato-container > h1 {
   margin-top: 0.5rem;
   text-align: center;
   font-size: 2rem;
 }
 
-.contato > ul {
+.contato-container > ul {
   display: flex;
   flex-direction: column;
   padding: 1rem;
 }
 
-.contato > ul > li > a {
+.contato-container > ul > li > a {
   display: flex;
   align-items: center;
   padding: 0.5rem;
 }
 
-.contato > ul > li > a > img {
+.contato-container > ul > li > a > img {
   height: 3rem;
   width: 3rem;
   padding-right: 0.5rem;
 }
 
-.contato > ul > li > a:hover {
+.contato-container > ul > li > a:hover {
   color: aqua;
   font-size: 1rem;
 }

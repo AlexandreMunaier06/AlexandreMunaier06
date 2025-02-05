@@ -7,9 +7,12 @@ import Skills from './pages/Skills'
 import Sobre from './pages/Sobre'
 
 function App() {
-
   return (
     <>
+      <div className="background">
+        <div></div>
+        <div></div>
+      </div>
       <Header />
       <Sobre />
       <Skills />

@@ -15,12 +15,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: gray;
+  background-color: rgb(107, 136, 255);
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 20px;
   width: 90%;
-  max-width: 500px;
+  max-width: 42rem;
   position: relative;
   animation: slideIn 0.3s ease-out;
 }
@@ -49,8 +49,13 @@
   margin-bottom: 0.5rem;
 }
 
+.modal > img {
+  width: 38rem;
+  height: 18rem;
+}
+
 .modal > article {
-  margin: 0.5rem 0rem 0rem 1rem;
+  margin: 1rem 0.5rem 0rem 1rem;
 }
 
 .modal-links {

@@ -1,20 +1,13 @@
 .skills-section {
   display: flex;
-  justify-content: center;
-}
-
-.skills-container {
-  display: flex;
+  position: relative;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 2rem;
-  background-color: #303841;
-  width: 80%;
-  border-radius: 1rem;
+  min-height: 100vh;
 }
 
-.skills-container > h1 {
+.skills-section > h1 {
   margin-top: 1rem;
 }
 
