@@ -1,14 +1,12 @@
 import { useState } from 'react';
 import './cards.css';
 import Modal from '../modal';
-import html from '../../assets/images/html.png';
-import css from '../../assets/images/css-3.png';
-import js from '../../assets/images/js.png';
 
 type CardProps = {
   title: string,
   tipo: string,
   image: string,
+  stacks: string[],
   description: string,
   details: string,
   siteLink: string,
@@ -32,9 +30,9 @@ function Cards(props: CardProps) {
           {props.description}
         </article>
         <div className='stacks'>
-          <img src={html} alt="HTML icon" />
-          <img src={css} alt="CSS icon" />
-          <img src={js} alt="JavaScript icon" />
+          {props.stacks.map((stack, index) => (
+            <img key={index} src={stack} alt={`Stack ${index}`} />
+          ))}
         </div>
         <button onClick={toggleModal}>Ver mais</button>
         {isVisible && (

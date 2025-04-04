@@ -40,6 +40,7 @@ function Projetos() {
             title={projeto.title}
             tipo={projeto.tipo}
             image={projeto.image}
+            stacks={projeto.stacks}
             description={projeto.description}
             details={projeto.details}
             siteLink={projeto.siteLink}
